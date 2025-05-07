@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1746639993 source:c:\users\evinellacuello\desktop\club\fecha.cpp
+	<iostream>
+	"Fecha.h"
+
+1746625119 c:\users\evinellacuello\desktop\club\fecha.h
+
+1746625119 source:c:\users\evinellacuello\desktop\club\main.cpp
+	<iostream>
+
+1746639993 source:c:\users\evinellacuello\documents\club\src\modelos\fecha.cpp
+	<iostream>
+	"Fecha.h"
+
+1746625119 c:\users\evinellacuello\documents\club\include\fecha.h
+
+1746640871 source:c:\users\evinellacuello\documents\club\src\modelos\socio.cpp
+	<iostream>
+	"Socio.h"
+
+1746645851 c:\users\evinellacuello\documents\club\include\socio.h
+	"Fecha.h"
+	<string>
+
+1746645169 source:c:\users\evinellacuello\documents\club\main.cpp
+	<iostream>
+	"Fecha.h"
+	"MenuPrincipal.h"
+
+1746645189 c:\users\evinellacuello\documents\club\include\menuprincipal.h
+
+1746645844 source:c:\users\evinellacuello\documents\club\src\menus\menuprincipal.cpp
+	"MenuPrincipal.h"
+	<cstdlib>
+	<iostream>
+

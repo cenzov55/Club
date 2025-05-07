@@ -1,5 +1,5 @@
 #include <iostream>
-#include "clsFecha.h"
+#include "Fecha.h"
 
 using namespace std;
 

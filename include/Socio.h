@@ -1,69 +1,33 @@
-#ifndef SOCIO_H
-#define SOCIO_H
+#pragma once
+#include "Fecha.h"
 
+#include <string>
 
-class Socio
-{
+using namespace std;
+
+class Socio {
 private:
     int _nroSocio;
     int _dni;
-    string _nombre;
-    string _apellido;
-    string _email;
+    char _nombre[50];
+    char _apellido[50];
+    char _email[50];
     Fecha _fechaNac;
 
 public:
-    Socio();
-    virtual ~Socio();
 
-    int getNroSocio()
-    {
-        return _nroSocio;
-    }
-    void setNroSocio(int val)
-    {
-        _nroSocio = val;
-    }
-    private int getDni()
-    {
-        return _dni;
-    }
-    void Setdni(int val)
-    {
-        dni = val;
-    }
-    private string getNombre()
-    {
-        return _nombre;
-    }
-    void Setnombre(string val)
-    {
-        _nombre = val;
-    }
-    private string getApellido()
-    {
-        return _apellido;
-    }
-    void setApellido(string val)
-    {
-        _apellido = val;
-    }
-    private string Getemail()
-    {
-        return _email;
-    }
-    void setEmail(string val)
-    {
-        _email = val;
-    }
-    private Fecha GetfechaNac()
-    {
-        return _fechaNac;
-    }
-    void setFechaNac(Fecha val)
-    {
-        _fechaNac = val;
-    }
+    int getNroSocio();
+    int getDni();
+    string getNombre();
+    string getApellido();
+    string getEmail();
+    Fecha getFechaNac();
+
+    void setNroSocio(int val);
+    void setDni(int val);
+    void setNombre(string val);
+    void setApellido(string val);
+    void setEmail(string val);
+    void setFechaNac(Fecha val);
+
 };
-
-#endif // SOCIO_H
