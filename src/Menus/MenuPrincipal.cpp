@@ -9,18 +9,18 @@ void MenuPrincipal::mostrar() {
 
     while(true) {
         system("cls");
-        cout <<"============================================"<<endl;
-        cout << "1. Gestion de Actividades"<<endl;
-        cout << "2. Gestion de Socios"<<endl;
-
-        cout <<"Ingrese una opcion: "<<endl;
+        cout << "****** MENU PRINCIPAL ******" << endl;
+        cout << "1. GESTION DE ACTIVIDADES"<<endl;
+        cout << "2. GESTION DE SOCIOS"<<endl;
+        cout << "************************" << endl;
+        cout << "SELECCIONAR OPCION " << endl;
         cin >> opcion;
 
         switch(opcion) {
         case 1:
 
             break;
-
+            default: cout<<"OPCION INCORRECTA"<<endl;
         }
     }
 }

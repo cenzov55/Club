@@ -41,6 +41,7 @@
 		<Unit filename="include/rlutil.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Menus/MenuPrincipal.cpp" />
+		<Unit filename="src/Modelos/Actividad.cpp" />
 		<Unit filename="src/Modelos/Fecha.cpp" />
 		<Unit filename="src/Modelos/Socio.cpp" />
 		<Extensions>

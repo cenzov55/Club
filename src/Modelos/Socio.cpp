@@ -1,55 +1,55 @@
 #include <iostream>
+#include <string>
+#include "Socio.h"
 using namespace std;
 
-#include "Socio.h"
-
-int Socio::getNroSocio()
+int Socio::getIdSocio()
 {
-    return _nroSocio;
+    return this->idSocio;
 }
-void Socio::setNroSocio(int val)
+void Socio::setIdSocio(int val)
 {
-    _nroSocio = val;
+    this->idSocio = val;
 }
 int Socio::getDni()
 {
-    return _dni;
+    return this->dni;
 }
 void Socio::setDni(int val)
 {
-    _dni = val;
+    this->dni = val;
 }
 string Socio::getNombre()
 {
-    return _nombre;
+    return string(this->nombre);
 }
-void Socio::setNombre(string val)
+void Socio::setNombre(std::string val)
 {
-    _nombre = val;
+    this->nombre = val.c_str();
 }
 string Socio::getApellido()
 {
-    return _apellido;
+    return this->apellido;
 }
 void Socio::setApellido(string val)
 {
-    _apellido = val;
+    this->apellido = val;
 }
 string Socio::getEmail()
 {
-    return _email;
+    return this->email;
 }
 void Socio::setEmail(string val)
 {
-    _email = val;
+    this->email = val;
 }
 Fecha Socio::getFechaNac()
 {
-    return _fechaNac;
+    return this->fechaNac;
 }
 void Socio::setFechaNac(Fecha val)
 {
-    _fechaNac = val;
+    this->fechaNac = val;
 }
 
 

@@ -34,3 +34,21 @@
 	<cstdlib>
 	<iostream>
 
+1746645169 source:c:\users\raz\documents\proyectosc++\club\main.cpp
+	<iostream>
+	"Fecha.h"
+	"MenuPrincipal.h"
+
+1746660845 c:\users\raz\documents\proyectosc++\club\include\fecha.h
+
+1746645189 c:\users\raz\documents\proyectosc++\club\include\menuprincipal.h
+
+1746639993 source:c:\users\raz\documents\proyectosc++\club\src\modelos\fecha.cpp
+	<iostream>
+	"Fecha.h"
+
+1746711780 source:c:\users\raz\documents\proyectosc++\club\src\menus\menuprincipal.cpp
+	"MenuPrincipal.h"
+	<cstdlib>
+	<iostream>
+
