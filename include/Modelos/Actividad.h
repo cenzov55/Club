@@ -17,18 +17,18 @@ private:
 public:
     // Setters
     void setIdActividad(int id);
-    void setNombre(const string &nombreStr);
-    void setResponsable(const string &responsableStr);
-    void setFechaInicio(const Fecha &fecha);
+    void setNombre(string &nombreStr);
+    void setResponsable(string &responsableStr);
+    void setFechaInicio(Fecha fecha);
     void setArancel(float ar);
     void setEliminado(bool elim);
 
     // Getters
-    int getIdActividad() const;
-    string getNombre() const;
-    string getResponsable() const;
-    Fecha getFechaInicio() const;
-    float getArancel() const;
-    bool isEliminado() const;
+    int getIdActividad();
+    string getNombre();
+    string getResponsable();
+    Fecha  getFechaInicio();
+    float  getArancel();
+    bool   getEliminado();
 };
 

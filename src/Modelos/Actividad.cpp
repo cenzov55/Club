@@ -35,13 +35,13 @@ public:
     {
         fechaInicio = fecha;
     }
-    void setArancel(float ar)
+    void setArancel(float var)
     {
-        arancel = ar;
+        arancel = var;
     }
-    void setEliminado(bool elim)
+    void setEliminado(bool var)
     {
-        eliminado = elim;
+        eliminado = var;
     }
 
     // Getters
@@ -65,7 +65,7 @@ public:
     {
         return arancel;
     }
-    bool isEliminado() const
+    bool getEliminado() const
     {
         return eliminado;
     }
